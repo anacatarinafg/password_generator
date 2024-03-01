@@ -6,7 +6,11 @@ lowercase_letters = uppercase_letters.lower()
 digits = '0123456789'
 symbols = '()[]{},;.:-$#"&%!\|/?!+º~'
 
-upper, lower, nums, syms = True, True, True, True
+# Do we want the password to have uppercase letters? Yes | True
+# Do we want the password to have lowercase letters? Yes | True
+# Do we want the password to have numbers? No | False
+# Do we want the password to have Symbols? Yes | True
+upper, lower, nums, syms = True, True, False, True
 
 # Create a string will all the things we are going to use
 all_chars = ''
